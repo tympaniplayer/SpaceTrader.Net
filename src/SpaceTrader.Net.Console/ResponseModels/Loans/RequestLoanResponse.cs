@@ -2,7 +2,7 @@ using SpaceTrader.Net.Models;
 
 namespace SpaceTrader.Net.ResponseModels
 {
-    public class GetUserResponse
+    public class RequestLoanResponse : IResponse
     {
         public User User { get; set; }
     }

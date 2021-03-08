@@ -13,7 +13,7 @@ namespace SpaceTrader.Net
             {
                 BaseAddress = new Uri(Constants.baseUrl)
             };
-            ISpaceService spacetraders = new SpaceTraderService(httpClient);
+            var spacetraders = new SpaceTraderService(httpClient);
 
             spacetraders.Initialize("", "");
 

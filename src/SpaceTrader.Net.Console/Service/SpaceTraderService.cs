@@ -6,7 +6,7 @@ using SpaceTrader.Net.ResponseModels;
 
 namespace SpaceTrader.Net.Service
 {
-    public class SpaceTraderService : ISpaceService
+    public class SpaceTraderService
     {
         private HttpClient _httpClient;
         private static string baseUrl = "https://api.spacetraders.io";
